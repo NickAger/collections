@@ -1,4 +1,8 @@
 /*
+ * Modified by Nick Ager based on: 
+ * https://github.com/mdippery/collections/blob/master/Source/NSArrayCollections.h
+ * https://github.com/crafterm/MRCEnumerable/blob/master/NSArray%2BEnumerable.h
+ * 
  * Copyright (C) 2011 Michael Dippery <mdippery@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,17 +26,19 @@
 
 #import <Foundation/Foundation.h>
 
-
-@interface MDPair : NSObject
-{
-    id firstObject;
-    id secondObject;
-}
-
-@property (nonatomic, readonly) id firstObject;
-@property (nonatomic, readonly) id secondObject;
-
-+ (id)pairWithFirstObject:(id)first secondObject:(id)second;
-- (id)initWithFirstObject:(id)first secondObject:(id)second;
-
+@interface NSArray (SmalltalkEnumeration)
+- (void)do:(void (^)(id obj))block;
+- (void)doWithIndex:(void (^)(id obj, NSUInteger idx))block;
+- (void)do:(void (^)(id obj))elementBlock separatedBy:(dispatch_block_t)separatorBlock;
+- (NSArray *)collect:(id (^)(id obj))block;
+- (NSArray *)collectWithIndex:(id (^)(id obj, NSUInteger idx))block;
+- (id)detect:(BOOL (^)(id obj))block;
+- (id)detect:(BOOL (^)(id obj))block ifNone:(id (^)(void))noneBlock;
+- (NSNumber *)detectIndex:(BOOL (^)(id obj))block;
+- (id)inject:(id)initial into:(id (^)(id memo, id obj))block;
+- (NSArray *)reject:(BOOL (^)(id obj))block;
+- (NSArray *)rejectWithIndex:(BOOL (^)(id obj, NSUInteger idx))block;
+- (NSArray *)select:(BOOL (^)(id obj))block;
+- (NSArray *)selectWithIndex:(BOOL (^)(id obj, NSUInteger idx))block;
 @end
+
