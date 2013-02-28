@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071E88B116DF477D00474CF6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E88B016DF477D00474CF6 /* SenTestingKit.framework */; };
+		071E88B316DF477D00474CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E88B216DF477D00474CF6 /* UIKit.framework */; };
+		071E88B516DF477D00474CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071E88B416DF477D00474CF6 /* Foundation.framework */; };
+		071E88BB16DF477D00474CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071E88B916DF477D00474CF6 /* InfoPlist.strings */; };
+		071E88BE16DF477D00474CF6 /* SmalltalkEnumerationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071E88BD16DF477D00474CF6 /* SmalltalkEnumerationTests.m */; };
+		071E88C616DF484500474CF6 /* NSArray+SmalltalkEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 071E88C516DF484500474CF6 /* NSArray+SmalltalkEnumeration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		071E88AD16DF477D00474CF6 /* SmalltalkEnumerationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmalltalkEnumerationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071E88B016DF477D00474CF6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		071E88B216DF477D00474CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		071E88B416DF477D00474CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		071E88B816DF477D00474CF6 /* SmalltalkEnumerationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmalltalkEnumerationTests-Info.plist"; sourceTree = "<group>"; };
+		071E88BA16DF477D00474CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		071E88BD16DF477D00474CF6 /* SmalltalkEnumerationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmalltalkEnumerationTests.m; sourceTree = "<group>"; };
+		071E88BF16DF477D00474CF6 /* SmalltalkEnumerationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmalltalkEnumerationTests-Prefix.pch"; sourceTree = "<group>"; };
+		071E88C416DF484500474CF6 /* NSArray+SmalltalkEnumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SmalltalkEnumeration.h"; path = "Source/NSArray+SmalltalkEnumeration.h"; sourceTree = "<group>"; };
+		071E88C516DF484500474CF6 /* NSArray+SmalltalkEnumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SmalltalkEnumeration.m"; path = "Source/NSArray+SmalltalkEnumeration.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071E88A916DF477D00474CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E88B116DF477D00474CF6 /* SenTestingKit.framework in Frameworks */,
+				071E88B316DF477D00474CF6 /* UIKit.framework in Frameworks */,
+				071E88B516DF477D00474CF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071E889C16DF46D900474CF6 = {
+			isa = PBXGroup;
+			children = (
+				071E88C416DF484500474CF6 /* NSArray+SmalltalkEnumeration.h */,
+				071E88C516DF484500474CF6 /* NSArray+SmalltalkEnumeration.m */,
+				071E88B616DF477D00474CF6 /* SmalltalkEnumerationTests */,
+				071E88AF16DF477D00474CF6 /* Frameworks */,
+				071E88AE16DF477D00474CF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071E88AE16DF477D00474CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071E88AD16DF477D00474CF6 /* SmalltalkEnumerationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071E88AF16DF477D00474CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071E88B016DF477D00474CF6 /* SenTestingKit.framework */,
+				071E88B216DF477D00474CF6 /* UIKit.framework */,
+				071E88B416DF477D00474CF6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		071E88B616DF477D00474CF6 /* SmalltalkEnumerationTests */ = {
+			isa = PBXGroup;
+			children = (
+				071E88BD16DF477D00474CF6 /* SmalltalkEnumerationTests.m */,
+				071E88B716DF477D00474CF6 /* Supporting Files */,
+			);
+			path = SmalltalkEnumerationTests;
+			sourceTree = "<group>";
+		};
+		071E88B716DF477D00474CF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				071E88B816DF477D00474CF6 /* SmalltalkEnumerationTests-Info.plist */,
+				071E88B916DF477D00474CF6 /* InfoPlist.strings */,
+				071E88BF16DF477D00474CF6 /* SmalltalkEnumerationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071E88AC16DF477D00474CF6 /* SmalltalkEnumerationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071E88C216DF477D00474CF6 /* Build configuration list for PBXNativeTarget "SmalltalkEnumerationTests" */;
+			buildPhases = (
+				071E88A816DF477D00474CF6 /* Sources */,
+				071E88A916DF477D00474CF6 /* Frameworks */,
+				071E88AA16DF477D00474CF6 /* Resources */,
+				071E88AB16DF477D00474CF6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmalltalkEnumerationTests;
+			productName = SmalltalkEnumerationTests;
+			productReference = 071E88AD16DF477D00474CF6 /* SmalltalkEnumerationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071E889E16DF46D900474CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 071E88A116DF46D900474CF6 /* Build configuration list for PBXProject "SmalltalkEnumeration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 071E889C16DF46D900474CF6;
+			productRefGroup = 071E88AE16DF477D00474CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071E88AC16DF477D00474CF6 /* SmalltalkEnumerationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071E88AA16DF477D00474CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E88BB16DF477D00474CF6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		071E88AB16DF477D00474CF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071E88A816DF477D00474CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E88BE16DF477D00474CF6 /* SmalltalkEnumerationTests.m in Sources */,
+				071E88C616DF484500474CF6 /* NSArray+SmalltalkEnumeration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		071E88B916DF477D00474CF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071E88BA16DF477D00474CF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071E88A316DF46D900474CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		071E88A416DF46D900474CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		071E88C016DF477D00474CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmalltalkEnumerationTests/SmalltalkEnumerationTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SmalltalkEnumerationTests/SmalltalkEnumerationTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		071E88C116DF477D00474CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmalltalkEnumerationTests/SmalltalkEnumerationTests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SmalltalkEnumerationTests/SmalltalkEnumerationTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071E88A116DF46D900474CF6 /* Build configuration list for PBXProject "SmalltalkEnumeration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E88A316DF46D900474CF6 /* Debug */,
+				071E88A416DF46D900474CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071E88C216DF477D00474CF6 /* Build configuration list for PBXNativeTarget "SmalltalkEnumerationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E88C016DF477D00474CF6 /* Debug */,
+				071E88C116DF477D00474CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071E889E16DF46D900474CF6 /* Project object */;
+}
