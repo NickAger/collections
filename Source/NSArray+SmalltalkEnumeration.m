@@ -24,6 +24,17 @@
  * THE SOFTWARE.
  */
 
+/*
+ * Smalltalk/Ruby collection looping constructs.
+ *
+ * For an introduction see: http://matthewcarriere.com/2008/06/23/using-select-reject-collect-inject-and-detect/
+ * In summary:
+ * - Use #select: or #reject: to create a filtered subset of an array.
+ * - Use #collect: to transform the elements of an array.
+ * - Use #inject:into: to accumulate, total, or concatenate array values together.
+ * - Use #detect: to find an item in an array.
+ */
+
 #import "NSArray+SmalltalkEnumeration.h"
 
 @implementation NSArray (SmalltalkEnumeration)
